@@ -64,7 +64,7 @@ class ControllerOptionsInfo
 
     void setStartSetNumber(int temp)
     {
-        if ((temp >= 1) && (temp <= 8))
+        if ((temp >= 1) && (temp <= 24))
         {
             startSetNumber = temp;
         }

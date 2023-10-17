@@ -2415,7 +2415,7 @@ int JoyButton::getMouseSpeedY() { return mouseSpeedY; }
 
 void JoyButton::setChangeSetSelection(int index, bool updateActiveString)
 {
-    if ((index >= -1) && (index <= 7))
+    if ((index >= -1) && (index <= (GlobalVariables::InputDevice::NUMBER_JOYSETS - 1)))
     {
         setSelection = index;
 

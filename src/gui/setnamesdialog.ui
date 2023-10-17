@@ -95,6 +95,86 @@
        <string>Set 8</string>
       </property>
      </row>
+     <row>
+      <property name="text">
+       <string>Set 9</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 10</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 11</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 12</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 13</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 14</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 15</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 16</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 17</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 18</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 19</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 20</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 21</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 22</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 23</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Set 24</string>
+      </property>
+     </row>
      <column>
       <property name="text">
        <string>Name</string>

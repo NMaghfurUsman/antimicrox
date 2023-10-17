@@ -95,7 +95,7 @@ const int GlobalVariables::AntimicroSettings::defaultSDLGamepadPollRate = 10; //
 
 // ---- INPUTDEVICE ---- //
 
-const int GlobalVariables::InputDevice::NUMBER_JOYSETS = 8;
+const int GlobalVariables::InputDevice::NUMBER_JOYSETS = 24;
 const int GlobalVariables::InputDevice::DEFAULTKEYPRESSTIME = 100;
 const int GlobalVariables::InputDevice::RAISEDDEADZONE = 20000;
 const int GlobalVariables::InputDevice::DEFAULTKEYREPEATDELAY = 660; // 660 ms

@@ -331,7 +331,7 @@ void CommandLineUtility::parseArgsStartSet(const QCommandLineParser &parser)
         bool validNumber = false;
         int tempNumber = startSetText.toInt(&validNumber);
 
-        if (validNumber && (tempNumber >= 1) && (tempNumber <= 8))
+        if (validNumber && (tempNumber >= 1) && (tempNumber <= 24))
         {
             startSetNumber = tempNumber;
             ControllerOptionsInfo tempInfo = getControllerOptionsList().at(currentListsIndex);

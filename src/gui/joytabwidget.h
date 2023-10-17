@@ -129,6 +129,22 @@ class JoyTabWidget : public QWidget
     void changeSetSix();   // JoyTabWidgetSets class
     void changeSetSeven(); // JoyTabWidgetSets class
     void changeSetEight(); // JoyTabWidgetSets class
+    void changeSetNine(); // JoyTabWidgetSets class
+    void changeSetTen(); // JoyTabWidgetSets class
+    void changeSetEleven(); // JoyTabWidgetSets class
+    void changeSetTwelve(); // JoyTabWidgetSets class
+    void changeSetThirteen(); // JoyTabWidgetSets class
+    void changeSetFourteen(); // JoyTabWidgetSets class
+    void changeSetFifteen(); // JoyTabWidgetSets class
+    void changeSetSixteen(); // JoyTabWidgetSets class
+    void changeSetSeventeen(); // JoyTabWidgetSets class
+    void changeSetEighteen(); // JoyTabWidgetSets class
+    void changeSetNineteen(); // JoyTabWidgetSets class
+    void changeSetTwenty(); // JoyTabWidgetSets class
+    void changeSetTwentyOne(); // JoyTabWidgetSets class
+    void changeSetTwentyTwo(); // JoyTabWidgetSets class
+    void changeSetTwentyThree(); // JoyTabWidgetSets class
+    void changeSetTwentyFour(); // JoyTabWidgetSets class
     void displayProfileEditNotification();
     void removeProfileEditNotification();
     void checkForUnsavedProfile(int newindex = -1);
@@ -172,6 +188,22 @@ class JoyTabWidget : public QWidget
     QGridLayout *gridLayout6;
     QGridLayout *gridLayout7;
     QGridLayout *gridLayout8;
+    QGridLayout *gridLayout9;
+    QGridLayout *gridLayout10;
+    QGridLayout *gridLayout11;
+    QGridLayout *gridLayout12;
+    QGridLayout *gridLayout13;
+    QGridLayout *gridLayout14;
+    QGridLayout *gridLayout15;
+    QGridLayout *gridLayout16;
+    QGridLayout *gridLayout17;
+    QGridLayout *gridLayout18;
+    QGridLayout *gridLayout19;
+    QGridLayout *gridLayout20;
+    QGridLayout *gridLayout21;
+    QGridLayout *gridLayout22;
+    QGridLayout *gridLayout23;
+    QGridLayout *gridLayout24;
 
     QSpacerItem *spacer1;
     QSpacerItem *spacer2;
@@ -186,6 +218,22 @@ class JoyTabWidget : public QWidget
     QPushButton *setPushButton6;
     QPushButton *setPushButton7;
     QPushButton *setPushButton8;
+    QPushButton *setPushButton9;
+    QPushButton *setPushButton10;
+    QPushButton *setPushButton11;
+    QPushButton *setPushButton12;
+    QPushButton *setPushButton13;
+    QPushButton *setPushButton14;
+    QPushButton *setPushButton15;
+    QPushButton *setPushButton16;
+    QPushButton *setPushButton17;
+    QPushButton *setPushButton18;
+    QPushButton *setPushButton19;
+    QPushButton *setPushButton20;
+    QPushButton *setPushButton21;
+    QPushButton *setPushButton22;
+    QPushButton *setPushButton23;
+    QPushButton *setPushButton24;
 
     QPushButton *setsMenuButton;
     QAction *setAction1;
@@ -196,6 +244,22 @@ class JoyTabWidget : public QWidget
     QAction *setAction6;
     QAction *setAction7;
     QAction *setAction8;
+    QAction *setAction9;
+    QAction *setAction10;
+    QAction *setAction11;
+    QAction *setAction12;
+    QAction *setAction13;
+    QAction *setAction14;
+    QAction *setAction15;
+    QAction *setAction16;
+    QAction *setAction17;
+    QAction *setAction18;
+    QAction *setAction19;
+    QAction *setAction20;
+    QAction *setAction21;
+    QAction *setAction22;
+    QAction *setAction23;
+    QAction *setAction24;
     QMenu *copySetMenu;
 
     QHBoxLayout *horizontalLayout_2;
@@ -213,6 +277,22 @@ class JoyTabWidget : public QWidget
     QWidget *page_6;
     QWidget *page_7;
     QWidget *page_8;
+    QWidget *page_9;
+    QWidget *page_10;
+    QWidget *page_11;
+    QWidget *page_12;
+    QWidget *page_13;
+    QWidget *page_14;
+    QWidget *page_15;
+    QWidget *page_16;
+    QWidget *page_17;
+    QWidget *page_18;
+    QWidget *page_19;
+    QWidget *page_20;
+    QWidget *page_21;
+    QWidget *page_22;
+    QWidget *page_23;
+    QWidget *page_24;
     QPushButton *pushButton;
     QSpacerItem *verticalSpacer_3;
 

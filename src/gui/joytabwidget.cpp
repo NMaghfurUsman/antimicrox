@@ -311,6 +311,327 @@ JoyTabWidget::JoyTabWidget(InputDevice *joystick, AntiMicroSettings *settings, Q
     tempVBoxLayout->addWidget(scrollArea8);
     stackedWidget_2->addWidget(page_8);
 
+    page_9 = new QWidget();
+    page_9->setObjectName(QString::fromUtf8("page_9"));
+
+    tempVBoxLayout = new QVBoxLayout(page_9);
+    QScrollArea *scrollArea9 = new QScrollArea();
+    scrollArea9->setObjectName(QString::fromUtf8("scrollArea9"));
+    scrollArea9->setSizePolicy(sizePolicy);
+    scrollArea9->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents9 = new QWidget();
+    scrollAreaWidgetContents9->setObjectName(QString::fromUtf8("scrollAreaWidgetContents9"));
+
+    gridLayout9 = new QGridLayout(scrollAreaWidgetContents9);
+    gridLayout9->setSpacing(4);
+    gridLayout9->setObjectName(QString::fromUtf8("gridLayout9"));
+
+    scrollArea9->setWidget(scrollAreaWidgetContents9);
+    tempVBoxLayout->addWidget(scrollArea9);
+    stackedWidget_2->addWidget(page_9);
+
+    page_10 = new QWidget();
+    page_10->setObjectName(QString::fromUtf8("page_10"));
+
+    tempVBoxLayout = new QVBoxLayout(page_10);
+    QScrollArea *scrollArea10 = new QScrollArea();
+    scrollArea10->setObjectName(QString::fromUtf8("scrollArea10"));
+    scrollArea10->setSizePolicy(sizePolicy);
+    scrollArea10->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents10 = new QWidget();
+    scrollAreaWidgetContents10->setObjectName(QString::fromUtf8("scrollAreaWidgetContents10"));
+
+    gridLayout10 = new QGridLayout(scrollAreaWidgetContents10);
+    gridLayout10->setSpacing(4);
+    gridLayout10->setObjectName(QString::fromUtf8("gridLayout10"));
+
+    scrollArea10->setWidget(scrollAreaWidgetContents10);
+    tempVBoxLayout->addWidget(scrollArea10);
+    stackedWidget_2->addWidget(page_10);
+
+    page_11 = new QWidget();
+    page_11->setObjectName(QString::fromUtf8("page_11"));
+
+    tempVBoxLayout = new QVBoxLayout(page_11);
+    QScrollArea *scrollArea11 = new QScrollArea();
+    scrollArea11->setObjectName(QString::fromUtf8("scrollArea11"));
+    scrollArea11->setSizePolicy(sizePolicy);
+    scrollArea11->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents11 = new QWidget();
+    scrollAreaWidgetContents11->setObjectName(QString::fromUtf8("scrollAreaWidgetContents11"));
+
+    gridLayout11 = new QGridLayout(scrollAreaWidgetContents11);
+    gridLayout11->setSpacing(4);
+    gridLayout11->setObjectName(QString::fromUtf8("gridLayout11"));
+
+    scrollArea11->setWidget(scrollAreaWidgetContents11);
+    tempVBoxLayout->addWidget(scrollArea11);
+    stackedWidget_2->addWidget(page_11);
+
+    page_12 = new QWidget();
+    page_12->setObjectName(QString::fromUtf8("page_12"));
+
+    tempVBoxLayout = new QVBoxLayout(page_12);
+    QScrollArea *scrollArea12 = new QScrollArea();
+    scrollArea12->setObjectName(QString::fromUtf8("scrollArea12"));
+    scrollArea12->setSizePolicy(sizePolicy);
+    scrollArea12->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents12 = new QWidget();
+    scrollAreaWidgetContents12->setObjectName(QString::fromUtf8("scrollAreaWidgetContents12"));
+
+    gridLayout12 = new QGridLayout(scrollAreaWidgetContents12);
+    gridLayout12->setSpacing(4);
+    gridLayout12->setObjectName(QString::fromUtf8("gridLayout12"));
+
+    scrollArea12->setWidget(scrollAreaWidgetContents12);
+    tempVBoxLayout->addWidget(scrollArea12);
+    stackedWidget_2->addWidget(page_12);
+
+    page_13 = new QWidget();
+    page_13->setObjectName(QString::fromUtf8("page_13"));
+
+    tempVBoxLayout = new QVBoxLayout(page_13);
+    QScrollArea *scrollArea13 = new QScrollArea();
+    scrollArea13->setObjectName(QString::fromUtf8("scrollArea13"));
+    scrollArea13->setSizePolicy(sizePolicy);
+    scrollArea13->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents13 = new QWidget();
+    scrollAreaWidgetContents13->setObjectName(QString::fromUtf8("scrollAreaWidgetContents13"));
+
+    gridLayout13 = new QGridLayout(scrollAreaWidgetContents13);
+    gridLayout13->setSpacing(4);
+    gridLayout13->setObjectName(QString::fromUtf8("gridLayout13"));
+
+    scrollArea13->setWidget(scrollAreaWidgetContents13);
+    tempVBoxLayout->addWidget(scrollArea13);
+    stackedWidget_2->addWidget(page_13);
+
+    page_14 = new QWidget();
+    page_14->setObjectName(QString::fromUtf8("page_14"));
+
+    tempVBoxLayout = new QVBoxLayout(page_14);
+    QScrollArea *scrollArea14 = new QScrollArea();
+    scrollArea14->setObjectName(QString::fromUtf8("scrollArea14"));
+    scrollArea14->setSizePolicy(sizePolicy);
+    scrollArea14->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents14 = new QWidget();
+    scrollAreaWidgetContents14->setObjectName(QString::fromUtf8("scrollAreaWidgetContents14"));
+
+    gridLayout14 = new QGridLayout(scrollAreaWidgetContents14);
+    gridLayout14->setSpacing(4);
+    gridLayout14->setObjectName(QString::fromUtf8("gridLayout14"));
+
+    scrollArea14->setWidget(scrollAreaWidgetContents14);
+    tempVBoxLayout->addWidget(scrollArea14);
+    stackedWidget_2->addWidget(page_14);
+
+    page_15 = new QWidget();
+    page_15->setObjectName(QString::fromUtf8("page_15"));
+
+    tempVBoxLayout = new QVBoxLayout(page_15);
+    QScrollArea *scrollArea15 = new QScrollArea();
+    scrollArea15->setObjectName(QString::fromUtf8("scrollArea15"));
+    scrollArea15->setSizePolicy(sizePolicy);
+    scrollArea15->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents15 = new QWidget();
+    scrollAreaWidgetContents15->setObjectName(QString::fromUtf8("scrollAreaWidgetContents15"));
+
+    gridLayout15 = new QGridLayout(scrollAreaWidgetContents15);
+    gridLayout15->setSpacing(4);
+    gridLayout15->setObjectName(QString::fromUtf8("gridLayout15"));
+
+    scrollArea15->setWidget(scrollAreaWidgetContents15);
+    tempVBoxLayout->addWidget(scrollArea15);
+    stackedWidget_2->addWidget(page_15);
+
+    page_16 = new QWidget();
+    page_16->setObjectName(QString::fromUtf8("page_16"));
+
+    tempVBoxLayout = new QVBoxLayout(page_16);
+    QScrollArea *scrollArea16 = new QScrollArea();
+    scrollArea16->setObjectName(QString::fromUtf8("scrollArea16"));
+    scrollArea16->setSizePolicy(sizePolicy);
+    scrollArea16->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents16 = new QWidget();
+    scrollAreaWidgetContents16->setObjectName(QString::fromUtf8("scrollAreaWidgetContents16"));
+
+    gridLayout16 = new QGridLayout(scrollAreaWidgetContents16);
+    gridLayout16->setSpacing(4);
+    gridLayout16->setObjectName(QString::fromUtf8("gridLayout16"));
+
+    scrollArea16->setWidget(scrollAreaWidgetContents16);
+    tempVBoxLayout->addWidget(scrollArea16);
+    stackedWidget_2->addWidget(page_16);
+
+    page_17 = new QWidget();
+    page_17->setObjectName(QString::fromUtf8("page_17"));
+
+    tempVBoxLayout = new QVBoxLayout(page_17);
+    QScrollArea *scrollArea17 = new QScrollArea();
+    scrollArea17->setObjectName(QString::fromUtf8("scrollArea17"));
+    scrollArea17->setSizePolicy(sizePolicy);
+    scrollArea17->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents17 = new QWidget();
+    scrollAreaWidgetContents17->setObjectName(QString::fromUtf8("scrollAreaWidgetContents17"));
+
+    gridLayout17 = new QGridLayout(scrollAreaWidgetContents17);
+    gridLayout17->setSpacing(4);
+    gridLayout17->setObjectName(QString::fromUtf8("gridLayout17"));
+
+    scrollArea17->setWidget(scrollAreaWidgetContents17);
+    tempVBoxLayout->addWidget(scrollArea17);
+    stackedWidget_2->addWidget(page_17);
+
+    page_18 = new QWidget();
+    page_18->setObjectName(QString::fromUtf8("page_18"));
+
+    tempVBoxLayout = new QVBoxLayout(page_18);
+    QScrollArea *scrollArea18 = new QScrollArea();
+    scrollArea18->setObjectName(QString::fromUtf8("scrollArea18"));
+    scrollArea18->setSizePolicy(sizePolicy);
+    scrollArea18->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents18 = new QWidget();
+    scrollAreaWidgetContents18->setObjectName(QString::fromUtf8("scrollAreaWidgetContents18"));
+
+    gridLayout18 = new QGridLayout(scrollAreaWidgetContents18);
+    gridLayout18->setSpacing(4);
+    gridLayout18->setObjectName(QString::fromUtf8("gridLayout18"));
+
+    scrollArea18->setWidget(scrollAreaWidgetContents18);
+    tempVBoxLayout->addWidget(scrollArea18);
+    stackedWidget_2->addWidget(page_18);
+
+    page_19 = new QWidget();
+    page_19->setObjectName(QString::fromUtf8("page_19"));
+
+    tempVBoxLayout = new QVBoxLayout(page_19);
+    QScrollArea *scrollArea19 = new QScrollArea();
+    scrollArea19->setObjectName(QString::fromUtf8("scrollArea19"));
+    scrollArea19->setSizePolicy(sizePolicy);
+    scrollArea19->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents19 = new QWidget();
+    scrollAreaWidgetContents19->setObjectName(QString::fromUtf8("scrollAreaWidgetContents19"));
+
+    gridLayout19 = new QGridLayout(scrollAreaWidgetContents19);
+    gridLayout19->setSpacing(4);
+    gridLayout19->setObjectName(QString::fromUtf8("gridLayout19"));
+
+    scrollArea19->setWidget(scrollAreaWidgetContents19);
+    tempVBoxLayout->addWidget(scrollArea19);
+    stackedWidget_2->addWidget(page_19);
+
+    page_20 = new QWidget();
+    page_20->setObjectName(QString::fromUtf8("page_20"));
+
+    tempVBoxLayout = new QVBoxLayout(page_20);
+    QScrollArea *scrollArea20 = new QScrollArea();
+    scrollArea20->setObjectName(QString::fromUtf8("scrollArea20"));
+    scrollArea20->setSizePolicy(sizePolicy);
+    scrollArea20->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents20 = new QWidget();
+    scrollAreaWidgetContents20->setObjectName(QString::fromUtf8("scrollAreaWidgetContents20"));
+
+    gridLayout20 = new QGridLayout(scrollAreaWidgetContents20);
+    gridLayout20->setSpacing(4);
+    gridLayout20->setObjectName(QString::fromUtf8("gridLayout20"));
+
+    scrollArea20->setWidget(scrollAreaWidgetContents20);
+    tempVBoxLayout->addWidget(scrollArea20);
+    stackedWidget_2->addWidget(page_20);
+
+    page_21 = new QWidget();
+    page_21->setObjectName(QString::fromUtf8("page_21"));
+
+    tempVBoxLayout = new QVBoxLayout(page_21);
+    QScrollArea *scrollArea21 = new QScrollArea();
+    scrollArea21->setObjectName(QString::fromUtf8("scrollArea21"));
+    scrollArea21->setSizePolicy(sizePolicy);
+    scrollArea21->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents21 = new QWidget();
+    scrollAreaWidgetContents21->setObjectName(QString::fromUtf8("scrollAreaWidgetContents21"));
+
+    gridLayout21 = new QGridLayout(scrollAreaWidgetContents21);
+    gridLayout21->setSpacing(4);
+    gridLayout21->setObjectName(QString::fromUtf8("gridLayout21"));
+
+    scrollArea21->setWidget(scrollAreaWidgetContents21);
+    tempVBoxLayout->addWidget(scrollArea21);
+    stackedWidget_2->addWidget(page_21);
+
+    page_22 = new QWidget();
+    page_22->setObjectName(QString::fromUtf8("page_22"));
+
+    tempVBoxLayout = new QVBoxLayout(page_22);
+    QScrollArea *scrollArea22 = new QScrollArea();
+    scrollArea22->setObjectName(QString::fromUtf8("scrollArea22"));
+    scrollArea22->setSizePolicy(sizePolicy);
+    scrollArea22->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents22 = new QWidget();
+    scrollAreaWidgetContents22->setObjectName(QString::fromUtf8("scrollAreaWidgetContents22"));
+
+    gridLayout22 = new QGridLayout(scrollAreaWidgetContents22);
+    gridLayout22->setSpacing(4);
+    gridLayout22->setObjectName(QString::fromUtf8("gridLayout22"));
+
+    scrollArea22->setWidget(scrollAreaWidgetContents22);
+    tempVBoxLayout->addWidget(scrollArea22);
+    stackedWidget_2->addWidget(page_22);
+
+    page_23 = new QWidget();
+    page_23->setObjectName(QString::fromUtf8("page_23"));
+
+    tempVBoxLayout = new QVBoxLayout(page_23);
+    QScrollArea *scrollArea23 = new QScrollArea();
+    scrollArea23->setObjectName(QString::fromUtf8("scrollArea23"));
+    scrollArea23->setSizePolicy(sizePolicy);
+    scrollArea23->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents23 = new QWidget();
+    scrollAreaWidgetContents23->setObjectName(QString::fromUtf8("scrollAreaWidgetContents23"));
+
+    gridLayout23 = new QGridLayout(scrollAreaWidgetContents23);
+    gridLayout23->setSpacing(4);
+    gridLayout23->setObjectName(QString::fromUtf8("gridLayout23"));
+
+    scrollArea23->setWidget(scrollAreaWidgetContents23);
+    tempVBoxLayout->addWidget(scrollArea23);
+    stackedWidget_2->addWidget(page_23);
+
+    page_24 = new QWidget();
+    page_24->setObjectName(QString::fromUtf8("page_24"));
+
+    tempVBoxLayout = new QVBoxLayout(page_24);
+    QScrollArea *scrollArea24 = new QScrollArea();
+    scrollArea24->setObjectName(QString::fromUtf8("scrollArea24"));
+    scrollArea24->setSizePolicy(sizePolicy);
+    scrollArea24->setWidgetResizable(true);
+
+    QWidget *scrollAreaWidgetContents24 = new QWidget();
+    scrollAreaWidgetContents24->setObjectName(QString::fromUtf8("scrollAreaWidgetContents24"));
+
+    gridLayout24 = new QGridLayout(scrollAreaWidgetContents24);
+    gridLayout24->setSpacing(4);
+    gridLayout24->setObjectName(QString::fromUtf8("gridLayout24"));
+
+    scrollArea24->setWidget(scrollAreaWidgetContents24);
+    tempVBoxLayout->addWidget(scrollArea24);
+    stackedWidget_2->addWidget(page_24);
+
+
     verticalLayout->addWidget(stackedWidget_2);
 
     verticalSpacer_3 = new QSpacerItem(20, 20, QSizePolicy::Minimum, QSizePolicy::Fixed);
@@ -363,6 +684,70 @@ JoyTabWidget::JoyTabWidget(InputDevice *joystick, AntiMicroSettings *settings, Q
     connect(setAction8, &QAction::triggered, this, &JoyTabWidget::changeSetEight);
     setMenu->addAction(setAction8);
 
+    setAction9 = new QAction(tr("Set 9"), setMenu);
+    connect(setAction9, &QAction::triggered, this, &JoyTabWidget::changeSetNine);
+    setMenu->addAction(setAction9);
+
+    setAction10 = new QAction(tr("Set 10"), setMenu);
+    connect(setAction10, &QAction::triggered, this, &JoyTabWidget::changeSetTen);
+    setMenu->addAction(setAction10);
+
+    setAction11 = new QAction(tr("Set 11"), setMenu);
+    connect(setAction11, &QAction::triggered, this, &JoyTabWidget::changeSetEleven);
+    setMenu->addAction(setAction11);
+
+    setAction12 = new QAction(tr("Set 12"), setMenu);
+    connect(setAction12, &QAction::triggered, this, &JoyTabWidget::changeSetTwelve);
+    setMenu->addAction(setAction12);
+
+    setAction13 = new QAction(tr("Set 13"), setMenu);
+    connect(setAction13, &QAction::triggered, this, &JoyTabWidget::changeSetThirteen);
+    setMenu->addAction(setAction13);
+
+    setAction14 = new QAction(tr("Set 14"), setMenu);
+    connect(setAction14, &QAction::triggered, this, &JoyTabWidget::changeSetFourteen);
+    setMenu->addAction(setAction14);
+
+    setAction15 = new QAction(tr("Set 15"), setMenu);
+    connect(setAction15, &QAction::triggered, this, &JoyTabWidget::changeSetFifteen);
+    setMenu->addAction(setAction15);
+
+    setAction16 = new QAction(tr("Set 16"), setMenu);
+    connect(setAction16, &QAction::triggered, this, &JoyTabWidget::changeSetSixteen);
+    setMenu->addAction(setAction16);
+
+    setAction17 = new QAction(tr("Set 17"), setMenu);
+    connect(setAction17, &QAction::triggered, this, &JoyTabWidget::changeSetSeventeen);
+    setMenu->addAction(setAction17);
+
+    setAction18 = new QAction(tr("Set 18"), setMenu);
+    connect(setAction18, &QAction::triggered, this, &JoyTabWidget::changeSetEighteen);
+    setMenu->addAction(setAction18);
+
+    setAction19 = new QAction(tr("Set 19"), setMenu);
+    connect(setAction19, &QAction::triggered, this, &JoyTabWidget::changeSetNineteen);
+    setMenu->addAction(setAction19);
+
+    setAction20 = new QAction(tr("Set 20"), setMenu);
+    connect(setAction20, &QAction::triggered, this, &JoyTabWidget::changeSetTwenty);
+    setMenu->addAction(setAction20);
+
+    setAction21 = new QAction(tr("Set 21"), setMenu);
+    connect(setAction21, &QAction::triggered, this, &JoyTabWidget::changeSetTwentyOne);
+    setMenu->addAction(setAction21);
+
+    setAction22 = new QAction(tr("Set 22"), setMenu);
+    connect(setAction22, &QAction::triggered, this, &JoyTabWidget::changeSetTwentyTwo);
+    setMenu->addAction(setAction22);
+
+    setAction23 = new QAction(tr("Set 23"), setMenu);
+    connect(setAction23, &QAction::triggered, this, &JoyTabWidget::changeSetTwentyThree);
+    setMenu->addAction(setAction23);
+
+    setAction24 = new QAction(tr("Set 24"), setMenu);
+    connect(setAction24, &QAction::triggered, this, &JoyTabWidget::changeSetTwentyFour);
+    setMenu->addAction(setAction24);
+
     setsMenuButton->setMenu(setMenu);
     horizontalLayout_2->addWidget(setsMenuButton);
 
@@ -413,6 +798,108 @@ JoyTabWidget::JoyTabWidget(InputDevice *joystick, AntiMicroSettings *settings, Q
     setPushButton8->setProperty("setActive", false);
 
     horizontalLayout_2->addWidget(setPushButton8);
+
+    setPushButton9 = new QPushButton("9", this);
+    setPushButton9->setObjectName(QString::fromUtf8("setPushButton9"));
+    setPushButton9->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton9);
+
+    setPushButton10 = new QPushButton("10", this);
+    setPushButton10->setObjectName(QString::fromUtf8("setPushButton10"));
+    setPushButton10->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton10);
+
+    setPushButton11 = new QPushButton("11", this);
+    setPushButton11->setObjectName(QString::fromUtf8("setPushButton11"));
+    setPushButton11->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton11);
+
+    setPushButton12 = new QPushButton("12", this);
+    setPushButton12->setObjectName(QString::fromUtf8("setPushButton12"));
+    setPushButton12->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton12);
+
+    setPushButton13 = new QPushButton("13", this);
+    setPushButton13->setObjectName(QString::fromUtf8("setPushButton13"));
+    setPushButton13->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton13);
+
+    setPushButton14 = new QPushButton("14", this);
+    setPushButton14->setObjectName(QString::fromUtf8("setPushButton14"));
+    setPushButton14->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton14);
+
+    setPushButton15 = new QPushButton("15", this);
+    setPushButton15->setObjectName(QString::fromUtf8("setPushButton15"));
+    setPushButton15->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton15);
+
+    setPushButton16 = new QPushButton("16", this);
+    setPushButton16->setObjectName(QString::fromUtf8("setPushButton16"));
+    setPushButton16->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton16);
+
+    setPushButton17 = new QPushButton("17", this);
+    setPushButton17->setObjectName(QString::fromUtf8("setPushButton17"));
+    setPushButton17->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton17);
+
+    setPushButton18 = new QPushButton("18", this);
+    setPushButton18->setObjectName(QString::fromUtf8("setPushButton18"));
+    setPushButton18->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton18);
+
+    setPushButton19 = new QPushButton("19", this);
+    setPushButton19->setObjectName(QString::fromUtf8("setPushButton19"));
+    setPushButton19->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton19);
+
+    setPushButton20 = new QPushButton("20", this);
+    setPushButton20->setObjectName(QString::fromUtf8("setPushButton20"));
+    setPushButton20->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton20);
+
+    setPushButton21 = new QPushButton("21", this);
+    setPushButton21->setObjectName(QString::fromUtf8("setPushButton21"));
+    setPushButton21->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton21);
+
+    setPushButton22 = new QPushButton("22", this);
+    setPushButton22->setObjectName(QString::fromUtf8("setPushButton22"));
+    setPushButton22->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton22);
+
+    setPushButton23 = new QPushButton("23", this);
+    setPushButton23->setObjectName(QString::fromUtf8("setPushButton23"));
+    setPushButton23->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton23);
+
+    setPushButton24 = new QPushButton("24", this);
+    setPushButton24->setObjectName(QString::fromUtf8("setPushButton24"));
+    setPushButton24->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton24);
+
+    setPushButton24 = new QPushButton("24", this);
+    setPushButton24->setObjectName(QString::fromUtf8("setPushButton24"));
+    setPushButton24->setProperty("setActive", false);
+
+    horizontalLayout_2->addWidget(setPushButton24);
 
     refreshSetButtons();
 
@@ -500,6 +987,22 @@ JoyTabWidget::JoyTabWidget(InputDevice *joystick, AntiMicroSettings *settings, Q
     connect(setPushButton6, &QPushButton::clicked, this, &JoyTabWidget::changeSetSix);
     connect(setPushButton7, &QPushButton::clicked, this, &JoyTabWidget::changeSetSeven);
     connect(setPushButton8, &QPushButton::clicked, this, &JoyTabWidget::changeSetEight);
+    connect(setPushButton9, &QPushButton::clicked, this, &JoyTabWidget::changeSetNine);
+    connect(setPushButton10, &QPushButton::clicked, this, &JoyTabWidget::changeSetTen);
+    connect(setPushButton11, &QPushButton::clicked, this, &JoyTabWidget::changeSetEleven);
+    connect(setPushButton12, &QPushButton::clicked, this, &JoyTabWidget::changeSetTwelve);
+    connect(setPushButton13, &QPushButton::clicked, this, &JoyTabWidget::changeSetThirteen);
+    connect(setPushButton14, &QPushButton::clicked, this, &JoyTabWidget::changeSetFourteen);
+    connect(setPushButton15, &QPushButton::clicked, this, &JoyTabWidget::changeSetFifteen);
+    connect(setPushButton16, &QPushButton::clicked, this, &JoyTabWidget::changeSetSixteen);
+    connect(setPushButton17, &QPushButton::clicked, this, &JoyTabWidget::changeSetSeventeen);
+    connect(setPushButton18, &QPushButton::clicked, this, &JoyTabWidget::changeSetEighteen);
+    connect(setPushButton19, &QPushButton::clicked, this, &JoyTabWidget::changeSetNineteen);
+    connect(setPushButton20, &QPushButton::clicked, this, &JoyTabWidget::changeSetTwenty);
+    connect(setPushButton21, &QPushButton::clicked, this, &JoyTabWidget::changeSetTwentyOne);
+    connect(setPushButton22, &QPushButton::clicked, this, &JoyTabWidget::changeSetTwentyTwo);
+    connect(setPushButton23, &QPushButton::clicked, this, &JoyTabWidget::changeSetTwentyThree);
+    connect(setPushButton23, &QPushButton::clicked, this, &JoyTabWidget::changeSetTwentyFour);
 
     connect(stickAssignPushButton, &QPushButton::clicked, this, &JoyTabWidget::showStickAssignmentDialog);
     connect(gameControllerMappingPushButton, &QPushButton::clicked, this, &JoyTabWidget::openGameControllerMappingWindow);
@@ -1268,6 +1771,54 @@ void JoyTabWidget::changeCurrentSet(int index)
     case 7:
         oldSetButton = setPushButton8;
         break;
+    case 8:
+        oldSetButton = setPushButton9;
+        break;
+    case 9:
+        oldSetButton = setPushButton10;
+        break;
+    case 10:
+        oldSetButton = setPushButton11;
+        break;
+    case 11:
+        oldSetButton = setPushButton12;
+        break;
+    case 12:
+        oldSetButton = setPushButton13;
+        break;
+    case 13:
+        oldSetButton = setPushButton14;
+        break;
+    case 14:
+        oldSetButton = setPushButton15;
+        break;
+    case 15:
+        oldSetButton = setPushButton16;
+        break;
+    case 16:
+        oldSetButton = setPushButton17;
+        break;
+    case 17:
+        oldSetButton = setPushButton18;
+        break;
+    case 18:
+        oldSetButton = setPushButton19;
+        break;
+    case 19:
+        oldSetButton = setPushButton20;
+        break;
+    case 20:
+        oldSetButton = setPushButton21;
+        break;
+    case 21:
+        oldSetButton = setPushButton22;
+        break;
+    case 22:
+        oldSetButton = setPushButton23;
+        break;
+    case 23:
+        oldSetButton = setPushButton24;
+        break;
     default:
         break;
     }
@@ -1308,6 +1859,54 @@ void JoyTabWidget::changeCurrentSet(int index)
     case 7:
         activeSetButton = setPushButton8;
         break;
+    case 8:
+        activeSetButton = setPushButton9;
+        break;
+    case 9:
+        activeSetButton = setPushButton10;
+        break;
+    case 10:
+        activeSetButton = setPushButton11;
+        break;
+    case 11:
+        activeSetButton = setPushButton12;
+        break;
+    case 12:
+        activeSetButton = setPushButton13;
+        break;
+    case 13:
+        activeSetButton = setPushButton14;
+        break;
+    case 14:
+        activeSetButton = setPushButton15;
+        break;
+    case 15:
+        activeSetButton = setPushButton16;
+        break;
+    case 16:
+        activeSetButton = setPushButton17;
+        break;
+    case 17:
+        activeSetButton = setPushButton18;
+        break;
+    case 18:
+        activeSetButton = setPushButton19;
+        break;
+    case 19:
+        activeSetButton = setPushButton20;
+        break;
+    case 20:
+        activeSetButton = setPushButton21;
+        break;
+    case 21:
+        activeSetButton = setPushButton22;
+        break;
+    case 22:
+        activeSetButton = setPushButton23;
+        break;
+    case 23:
+        activeSetButton = setPushButton24;
+        break;
     default:
         break;
     }
@@ -1335,6 +1934,38 @@ void JoyTabWidget::changeSetSix() { changeCurrentSet(5); }
 void JoyTabWidget::changeSetSeven() { changeCurrentSet(6); }
 
 void JoyTabWidget::changeSetEight() { changeCurrentSet(7); }
+
+void JoyTabWidget::changeSetNine() { changeCurrentSet(8); }
+
+void JoyTabWidget::changeSetTen() { changeCurrentSet(9); }
+
+void JoyTabWidget::changeSetEleven() { changeCurrentSet(10); }
+
+void JoyTabWidget::changeSetTwelve() { changeCurrentSet(11); }
+
+void JoyTabWidget::changeSetThirteen() { changeCurrentSet(12); }
+
+void JoyTabWidget::changeSetFourteen() { changeCurrentSet(13); }
+
+void JoyTabWidget::changeSetFifteen() { changeCurrentSet(14); }
+
+void JoyTabWidget::changeSetSixteen() { changeCurrentSet(15); }
+
+void JoyTabWidget::changeSetSeventeen() { changeCurrentSet(16); }
+
+void JoyTabWidget::changeSetEighteen() { changeCurrentSet(17); }
+
+void JoyTabWidget::changeSetNineteen() { changeCurrentSet(18); }
+
+void JoyTabWidget::changeSetTwenty() { changeCurrentSet(19); }
+
+void JoyTabWidget::changeSetTwentyOne() { changeCurrentSet(20); }
+
+void JoyTabWidget::changeSetTwentyTwo() { changeCurrentSet(21); }
+
+void JoyTabWidget::changeSetTwentyThree() { changeCurrentSet(22); }
+
+void JoyTabWidget::changeSetTwentyFour() { changeCurrentSet(23); }
 
 void JoyTabWidget::showStickAssignmentDialog()
 {
@@ -1515,6 +2146,70 @@ void JoyTabWidget::refreshSetButtons()
             tempSetButton = setPushButton8;
             tempSetAction = setAction8;
             break;
+        case 8:
+            tempSetButton = setPushButton9;
+            tempSetAction = setAction9;
+            break;
+        case 9:
+            tempSetButton = setPushButton10;
+            tempSetAction = setAction10;
+            break;
+        case 10:
+            tempSetButton = setPushButton11;
+            tempSetAction = setAction11;
+            break;
+        case 11:
+            tempSetButton = setPushButton12;
+            tempSetAction = setAction12;
+            break;
+        case 12:
+            tempSetButton = setPushButton13;
+            tempSetAction = setAction13;
+            break;
+        case 13:
+            tempSetButton = setPushButton14;
+            tempSetAction = setAction14;
+            break;
+        case 14:
+            tempSetButton = setPushButton15;
+            tempSetAction = setAction15;
+            break;
+        case 15:
+            tempSetButton = setPushButton16;
+            tempSetAction = setAction16;
+            break;
+        case 16:
+            tempSetButton = setPushButton17;
+            tempSetAction = setAction17;
+            break;
+        case 17:
+            tempSetButton = setPushButton18;
+            tempSetAction = setAction18;
+            break;
+        case 18:
+            tempSetButton = setPushButton19;
+            tempSetAction = setAction19;
+            break;
+        case 19:
+            tempSetButton = setPushButton20;
+            tempSetAction = setAction20;
+            break;
+        case 20:
+            tempSetButton = setPushButton21;
+            tempSetAction = setAction21;
+            break;
+        case 21:
+            tempSetButton = setPushButton22;
+            tempSetAction = setAction22;
+            break;
+        case 22:
+            tempSetButton = setPushButton23;
+            tempSetAction = setAction23;
+            break;
+        case 23:
+            tempSetButton = setPushButton24;
+            tempSetAction = setAction24;
+            break;
         default:
             break;
         }
@@ -1583,6 +2278,22 @@ void JoyTabWidget::retranslateUi()
     setAction6->setText(tr("Set 6"));
     setAction7->setText(tr("Set 7"));
     setAction8->setText(tr("Set 8"));
+    setAction9->setText(tr("Set 9"));
+    setAction10->setText(tr("Set 10"));
+    setAction11->setText(tr("Set 11"));
+    setAction12->setText(tr("Set 12"));
+    setAction13->setText(tr("Set 13"));
+    setAction14->setText(tr("Set 14"));
+    setAction15->setText(tr("Set 15"));
+    setAction16->setText(tr("Set 16"));
+    setAction17->setText(tr("Set 17"));
+    setAction18->setText(tr("Set 18"));
+    setAction19->setText(tr("Set 19"));
+    setAction20->setText(tr("Set 20"));
+    setAction21->setText(tr("Set 21"));
+    setAction22->setText(tr("Set 22"));
+    setAction23->setText(tr("Set 23"));
+    setAction24->setText(tr("Set 24"));
 
     refreshSetButtons();
     refreshCopySetActions();
@@ -1933,6 +2644,70 @@ void JoyTabWidget::fillSetButtons(SetJoystick *set)
     }
     case 7: {
         current_layout = gridLayout8;
+        break;
+    }
+    case 8: {
+        current_layout = gridLayout9;
+        break;
+    }
+    case 9: {
+        current_layout = gridLayout10;
+        break;
+    }
+    case 10: {
+        current_layout = gridLayout11;
+        break;
+    }
+    case 11: {
+        current_layout = gridLayout12;
+        break;
+    }
+    case 12: {
+        current_layout = gridLayout13;
+        break;
+    }
+    case 13: {
+        current_layout = gridLayout14;
+        break;
+    }
+    case 14: {
+        current_layout = gridLayout15;
+        break;
+    }
+    case 15: {
+        current_layout = gridLayout16;
+        break;
+    }
+    case 16: {
+        current_layout = gridLayout17;
+        break;
+    }
+    case 17: {
+        current_layout = gridLayout18;
+        break;
+    }
+    case 18: {
+        current_layout = gridLayout19;
+        break;
+    }
+    case 19: {
+        current_layout = gridLayout20;
+        break;
+    }
+    case 20: {
+        current_layout = gridLayout21;
+        break;
+    }
+    case 21: {
+        current_layout = gridLayout22;
+        break;
+    }
+    case 22: {
+        current_layout = gridLayout23;
+        break;
+    }
+    case 23: {
+        current_layout = gridLayout24;
         break;
     }
     default:
@@ -2345,6 +3120,70 @@ void JoyTabWidget::removeSetButtons(SetJoystick *set)
     }
     case 7: {
         current_layout = gridLayout8;
+        break;
+    }
+    case 8: {
+        current_layout = gridLayout9;
+        break;
+    }
+    case 9: {
+        current_layout = gridLayout10;
+        break;
+    }
+    case 10: {
+        current_layout = gridLayout11;
+        break;
+    }
+    case 11: {
+        current_layout = gridLayout12;
+        break;
+    }
+    case 12: {
+        current_layout = gridLayout13;
+        break;
+    }
+    case 13: {
+        current_layout = gridLayout14;
+        break;
+    }
+    case 14: {
+        current_layout = gridLayout15;
+        break;
+    }
+    case 15: {
+        current_layout = gridLayout16;
+        break;
+    }
+    case 16: {
+        current_layout = gridLayout17;
+        break;
+    }
+    case 17: {
+        current_layout = gridLayout18;
+        break;
+    }
+    case 18: {
+        current_layout = gridLayout19;
+        break;
+    }
+    case 19: {
+        current_layout = gridLayout20;
+        break;
+    }
+    case 20: {
+        current_layout = gridLayout21;
+        break;
+    }
+    case 21: {
+        current_layout = gridLayout22;
+        break;
+    }
+    case 22: {
+        current_layout = gridLayout23;
+        break;
+    }
+    case 23: {
+        current_layout = gridLayout24;
         break;
     }
     default: {

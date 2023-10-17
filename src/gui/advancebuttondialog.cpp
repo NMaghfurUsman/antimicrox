@@ -29,6 +29,7 @@
 
 #include <cmath>
 
+#include <QMap>
 #include <QComboBox>
 #include <QDebug>
 #include <QDoubleSpinBox>
@@ -1372,8 +1373,20 @@ void AdvanceButtonDialog::populateSetSelectionComboBox()
     ui->setSelectionComboBox->insertItem(0, tr("Disabled"));
     int currentIndex = 1;
 
-    for (auto set = m_button->getParentSet()->getInputDevice()->getJoystick_sets().begin();
-         set != m_button->getParentSet()->getInputDevice()->getJoystick_sets().end(); ++set)
+    QHash<int, SetJoystick *>::iterator intermediate_set;
+    QMap<int, SetJoystick *> actual_sets;
+
+    for (intermediate_set = m_button->getParentSet()->getInputDevice()->getJoystick_sets().begin();
+         intermediate_set != m_button->getParentSet()->getInputDevice()->getJoystick_sets().end(); ++intermediate_set)
+    {
+      actual_sets.insert(intermediate_set.key(),intermediate_set.value());
+    }
+
+    QMap<int, SetJoystick *>::iterator set;
+    int originset = 0;
+
+    for (set = actual_sets.begin();
+         set != actual_sets.end(); ++set)
     {
         int originset = set.key();
         if (m_button->getOriginSet() != originset)
